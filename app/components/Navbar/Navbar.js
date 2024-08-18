@@ -43,7 +43,7 @@ function Navbar() {
 
 
     return (
-        <div className='flex justify-center fixeds'>
+        <div className='flex justify-center fixeds text-white'>
             <div id="nav" className='w-[93vw] h-[12vh] bg-[#03256c] rounded-full mt-[3vh] flex items-center justify-between px-[4vw] shadow-xl shadow-[#0f0529]'>
                 <Image id="logo" className='w-[6.3vw] h-[11vh]' src={Logo}></Image>
                 <ul id="navelements" className='flex items-center gap-12 font-bold'>
